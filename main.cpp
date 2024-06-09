@@ -24,6 +24,10 @@ int main(int argc, char **argv)
         {
             std::cout << areaCirculo(std::stod(argv[i + 1])) << '\n';
         }
+        else if (arg == "fatorial")
+        {
+            std::cout << fatorial(std::stoi(argv[i + 1])) << '\n';
+        }
         else
         {
             continue;

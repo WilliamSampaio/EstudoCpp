@@ -15,3 +15,7 @@ double areaCirculo(double r)
 {
     return M_PI * (r * r);
 }
+
+int fatorial(int n){
+    return (n == 0) ? 1 : n * fatorial(n -1);
+}
